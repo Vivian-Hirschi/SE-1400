@@ -17,6 +17,7 @@ header h1 {
 nav {
     font-weight: bold;
     background-color: #F3F3F3;
+    color: #003058;
 }
 h2 {
     color: #424242;
@@ -40,6 +41,5 @@ footer {
 
 #wrapper {
     width: 80%;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
 }
