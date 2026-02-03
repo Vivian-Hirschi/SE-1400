@@ -1,44 +1,45 @@
-a {
-                color:pink;
-                text-decoration: none;
-            }
-            header {
-                background-color:rgb(3, 1, 118);
-                color:white;
-                text-shadow: 5px 3px 5px rgb(0, 0, 0)
-            }
-            h1{
-                font-size: 3rem; 
-                font-weight: 400;
-                font-style: normal;
-                letter-spacing: 20px;
-                text-transform:uppercase;
-                text-align: center;
+body {
+    background-color: #ffffff;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+}
+header {
+    background-color: #003058;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+}
 
+header h1 {
+    line-height: 140%;
+    padding: 0.5rem;
+}
 
-            }
-            p {
-                font-size: 1rem;
-                font-weight: bold;
-                font-family:'Times New Roman', Times, serif;
-                line-height: 1.2rem;
+nav {
+    font-weight: bold;
+    background-color: #F3F3F3;
+}
+h2 {
+    color: #424242;
+    font-family: Georgia, serif;
+}
 
+dt{
+    color:#003058;
+    font-weight: bold;
+}
+.ut {
+    color: #BA1C21;
+    font-weight: bold;
+}
 
-            }
-            span {
-                font-size:2rem;
-            }
-            #bluetext {
-                Color:rgb(24, 0, 104);
-            }
-            .greentext {
-                color:green;
-            }
-            h4{
-                font-size:1.5rem;
-            }
-            #wrapper {
-                width: 80%;
-                margin-right: auto;
-                margin-left: auto;
-            }
+footer {
+    font-size: 0.70rem;
+    font-style: italic;
+    text-align: center;
+}
+
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
