@@ -48,8 +48,11 @@
 
             }
             nav ul li{
-                display:inline-block;
-                padding:10px 20px;
+                display: inline-block;
+                padding: 10px 20px;
                 margin: 30px 30px 30px 30px;
                 background-color:blueviolet
+            }
+            body{
+                margin: 0;
             }
