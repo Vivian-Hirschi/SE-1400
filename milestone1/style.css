@@ -14,6 +14,7 @@
                 letter-spacing: 20px;
                 text-transform:uppercase;
                 text-align: center;
+                marfin: 0px;
 
 
             }
@@ -49,5 +50,6 @@
             nav ul li{
                 display:inline-block;
                 padding:10px 20px;
+                margin: 30px 30px 30px 30px;
                 background-color:blueviolet
             }
