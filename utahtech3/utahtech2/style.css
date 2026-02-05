@@ -2,8 +2,6 @@ body {
     background-color: #ffffff;
     color: #666666;
     font-family: Verdana, Arial, sans-serif;
-    background-image: linear-gradient(to bottom, #eeeeee, #ffffff);
-    background-attachment: fixed;
 }
 header {
     background-color: #003058;
@@ -44,10 +42,4 @@ footer {
 #wrapper {
     width: 80%;
     margin: 0 auto;
-    background-color: #fff;
-    min-width:960px;
-    max-width:2048px;
-    box-shadow: opx 3px 3px rgba(66,66,66,0.3);
 }
-
-
