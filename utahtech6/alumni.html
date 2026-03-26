@@ -28,23 +28,28 @@
   <main>
     <h2>Join Alumni Mailing List</h2>
     <h3>Request Alumni Newsletter</h3>
-    <form method="post" action="https://kearl.net/se1400/mail.phpLinks to an external site.">
-        <label for="myFname">First Name:</label>
-        <input type="text" name="myFname" id="myFname">
+    <p>Required information is marked with an asterisk (*).”</p>
+    <form method="post" action=" https://wfc.flitchbeta.com/se1400/index.php">
+        <label for="myFname">*First Name:</label>
+        <input type="text" name="myFname" id="myFname" required>
         
-        <label for="myLname">Last Name:</label>
-        <input type="text" name="myLname" id="myLname">
+        <label for="myLname">*Last Name:</label>
+        <input type="text" name="myLname" id="myLname" required>
 
-        <label for="myEmail">Email:</label>
-        <input type="email" name="myEmail" id="myEmail">
+        <label for="myEmail">*Email:</label>
+        <input type="email" name="myEmail" id="myEmail" required>
        
         <label for="myPhone">Phone:</label>
-        <input type="tel" name="myPhonel" id="myPhone">
+        <input type="tel" name="myPhone" id="myPhone">
+
+        <label for="myGraduation">Graduation Date:</label>
+        <input type="date" name="myGraduation" id="myGraduation">
        
-        <label for="mycomments">Comments:</label>
-        <textarea name="myCommments" cols="20" rows="2" id="myComments"></textarea>
+        <label for="mycomments">*Comments:</label>
+        <textarea name="myCommments" cols="20" rows="2" id="myComments" required></textarea>
 
             <input type="submit" value="submit" id="mySubmit">
+            </form>
 
     </main>
   <footer>

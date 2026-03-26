@@ -177,7 +177,7 @@ label {
     text-align: right;
 }
 #mysubmit {
-    width: 10rem;
+    width:10rem;
     grid-column:2 / 3;
 }
  @media only screen and (max-width:1100px){
@@ -196,7 +196,15 @@ label {
        flex-flow:column nowrap;
     
 } 
-#homehero, #studenthero, #facultyhero {
+#alimnihero {
+    height: 300px;
+    background-image: url ('alumnihero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#homehero, #studenthero, #facultyhero, #alumnihero{
     grid-row:2 / 3;
     grid-column: 5/ 8;
     height:auto;
@@ -217,7 +225,7 @@ nav {
     grid-row:2 / 3;
     grid-column:1 / -1;
 }
-#homehero, #studenthero, #facultyhero {
+#homehero, #studenthero, #facultyhero , #alumnihero {
     display: none;
 }
 }
