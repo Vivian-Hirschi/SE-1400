@@ -1,0 +1,100 @@
+#wrapper {
+    display:grid;
+    grid-auto-rows: minmax(0,auto);
+    grid-template-columns: minmax(0px,1fr) repeat(6,minmax(0,175px)) minmax(0px,1fr);
+    background-color: rgb(44, 82, 195);
+}
+
+header{
+    background-color: rgb(227, 234, 255);
+    height: 100px;
+    grid-row: 1 / 2;
+    grid-column:2 / -2;
+    font-size: 50px;
+    text-align: center;
+    background-image: url(https://colorkit.co/color/f5f7ff/);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border-image-width: 30px;
+    position: relative;
+    
+    
+
+
+}
+.phone{
+    position: fixed !important;
+    top: 20px;
+    right: 20px;
+    font-size:15px;
+}
+nav{
+    background-color: rgb(237, 241, 254);
+    height: 50px;
+    grid-row:2 / 3;
+    grid-column:2 / -2;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0;
+    margin:0;
+    position: sticky;
+    top:0;
+    width:100%;
+    border-bottom: 4px;
+    border-top:4px;
+    border-color: rgb(245, 0, 0);
+    border: 5px solid rgb(19, 19, 115) !important;
+    
+
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 1rem 0rem;
+    display: block;
+    text-align: center;
+}
+nav a:hover {
+    background-color: rgb(18, 75, 141);
+    
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+}
+nav ul li{
+    width: 100%;
+
+}
+
+#hero {
+    background-image:('<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v200h-80v-40H200v400h280v80H200Zm0-560h560v-80H200v80Zm0 0v-80 80ZM560-80v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q8 9 12.5 20t4.5 22q0 11-4 22.5T903-300L683-80H560Zm300-263-37-37 37 37ZM620-140h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z"/></svg>');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    grid-row:3 / 4;
+    grid-column:2 / 8;
+}
+main{
+    background-color: rgb(216, 232, 255);
+    height: 500px;
+    grid-row:4 / 5,  ;
+    grid-column:2 / -2;
+    display: grid;
+    font-weight: bold;
+    color: black
+}
+
+
+footer {
+    background-color: rgb(44, 82, 195);
+    height: 100px;
+    grid-row:5 / 6;
+    grid-column:2 / -2;
+}
+
