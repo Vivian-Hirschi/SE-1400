@@ -2,11 +2,11 @@
     display:grid;
     grid-auto-rows: minmax(0,auto);
     grid-template-columns: minmax(0px,1fr) repeat(6,minmax(0,175px)) minmax(0px,1fr);
-    background-color: rgb(44, 82, 195);
+    background-color: rgb(0, 0, 0);
 }
 
 header{
-    background-color: rgb(227, 234, 255);
+    background-color: rgb(0, 0, 0);
     height: 100px;
     grid-row: 1 / 2;
     grid-column:2 / -2;
@@ -18,7 +18,7 @@ header{
     background-origin: content-box;
     border-image-width: 30px;
     position: relative;
-    
+    color: white
     
 
 
@@ -30,7 +30,7 @@ header{
     font-size:15px;
 }
 nav{
-    background-color: rgb(237, 241, 254);
+    background-color: rgb(0, 0, 0);
     height: 50px;
     grid-row:2 / 3;
     grid-column:2 / -2;
@@ -43,20 +43,20 @@ nav{
     width:100%;
     border-bottom: 4px;
     border-top:4px;
-    border-color: rgb(245, 0, 0);
-    border: 5px solid rgb(19, 19, 115) !important;
+    border-color: rgba(0, 0, 0, 0.953);
+    border: 5px solid rgba(0, 13, 255, 0.401) !important;
     
 
 }
 nav a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 1rem 0rem;
     display: block;
     text-align: center;
 }
 nav a:hover {
-    background-color: rgb(18, 75, 141);
+    background-color: rgba(0, 13, 255, 0.401);
     
 }
 nav ul{
@@ -81,20 +81,42 @@ nav ul li{
     grid-column:2 / 8;
 }
 main{
-    background-color: rgb(216, 232, 255);
+    background-color: rgb(0, 0, 0);
     height: 500px;
     grid-row:4 / 5,  ;
     grid-column:2 / -2;
     display: grid;
     font-weight: bold;
-    color: black
+    color: rgb(255, 255, 255);
 }
 
 
 footer {
-    background-color: rgb(44, 82, 195);
+    background-color: rgb(0, 0, 0);
     height: 100px;
     grid-row:5 / 6;
     grid-column:2 / -2;
+}
+
+@media  screen and (max-width:992px){
+    header h1 {
+        font-size:28px;
+        padding:20px 0;
+    }
+    #wrapper {
+        grid-template-columns: minmax (0px, 1fr) repeat (6, minmax(0,150px)) minmax(0px, 1fr);
+    }
+} 
+@media screen and (max-width: 7px){
+    nav ul {
+        flex-direction: column;
+    }
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+    .column {
+        width:50%;
+        margin:0;
+    }
 }
 
