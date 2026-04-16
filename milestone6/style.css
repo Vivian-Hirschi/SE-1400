@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -54,7 +56,7 @@ nav a:hover {
 
 #hero img {
     width: 100%;
-    height: 550px;
+    height: auto;
     display: block;
 }
 
@@ -64,6 +66,7 @@ main {
     padding: 20px;
 }
 
+
 .cards {
     display: flex;
     gap: 20px;
@@ -72,11 +75,19 @@ main {
 
 .card {
     flex: 1 1 175px;
-    background-color: #111;
+    background-color: #000000;
     padding: 20px;
     border: 1px solid rgba(0, 13, 255, 0.4);
     text-align: center;
 }
+.card-img {
+    width: 100%;
+    max-height: 300px;   
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
 
 
 footer {
@@ -85,25 +96,141 @@ footer {
     padding: 20px;
     border-top: 1px solid rgba(0, 13, 255, 0.4);
 }
-table {
-    margin:0 auto;
-    border:1px solid #424242;
-    width: 100%;
-    border-collapse: collapse;
+.wrapper {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+    font-family: Arial;
 }
-td, th {
-    padding: 5px;
-    border:1px solid #424242;
+
+
+.box {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 40px;
 }
-td {
+
+
+.background {
+    background: rgba(0, 13, 255, 0.4); 
+}
+
+.idk {
+    flex: 1;
+}
+
+.idk h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.idk p {
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.images {
+     width: 100%;
+    max-height: 300px;   
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: block;
+
+}
+.urmom {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-page h1 {
     text-align: center;
+    margin-bottom: 20px;
 }
-.text{
+
+.contact-page p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.contact-simple {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.contact-left {
+    flex: 2;
+    color: #3c8cdc;
+}
+
+.contact-left h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #3c8cdc;
+}
+
+.contact-left p {
+    line-height: 1.6;
+    color: #3c8cdc;
+}
+
+.contact-right {
+    flex: 1;
+    text-align: left;
+    color: #3c8cdc;
+}
+.contact-location {
+    flex: 1;
     text-align: left;
 }
-tr:nth-of-type(even) {
-    background-color: rgba(0, 13, 255, 0.4);
+.contact-phone {
+    flex: 1;
+    text-align: right;
+    color: #3c8cdc;
 }
+.contact-right {
+    margin-bottom: 5px;
+    flex: 1;
+    color: #3c8cdc;
+}
+
+.contact-right p {
+    margin-bottom: 20px;
+    color: #3c8cdc;
+}
+
+@media (max-width: 800px) {
+    .contact-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-right {
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .box {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
 
 @media screen and (max-width: 992px) {
     #wrapper {
